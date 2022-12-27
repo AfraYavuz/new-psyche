@@ -69,8 +69,8 @@
       >
       <div class="container">
           <a class="navbar-brand black logo scroll" href="javascript:void(0)" title="Logo">
-          <i class="fa-solid fa-stethoscope fa-2x p-1 logo">
-              <strong class="logo-text" style="font-size: 24px;">p s y c h e</strong>
+          <i class="fa-solid fa-stethoscope fa-x logo">
+              <strong class="logo-text" style="font-size: 20px;">p s y c h e</strong>
             </i>
           </a>
          
@@ -86,8 +86,11 @@
               <a class="nav-link scroll" href="#reviews"
                 >Yorumlar<span></span
               ></a>
+              <a class="nav-link scroll" href="#login"
+                >Giriş<span></span
+              ></a>
               <a class="nav-link scroll" href="#contact"
-                >Hakkımda/İletişim<span></span
+                >Hakkımızda<span></span
               ></a>
             </div>
           </div>
@@ -125,7 +128,10 @@
                 <a class="nav-link scroll" href="#reviews">Yorum</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link scroll" href="#contact">Hakkımda/İletişim</a>
+                <a class="nav-link scroll" href="#login">Giriş</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link scroll" href="#contact">Hakkımızda</a>
               </li>
             </ul>
           </nav>
@@ -148,7 +154,7 @@
                 </a>
               </li>
             </ul>
-            <p class="text-white">&copy; AFRA YAVUZ</p>
+            <p class="text-white">&copy; PSYCHE</p>
           </div>
         </div>
       </div>
@@ -159,7 +165,7 @@
       <div
         class="item slider-inner center-block parallax m-0"
         style="
-          background: url(afrayavuz/img/single-portfolio1.jpg);
+          background: url(afrayavuz/img/homepage.jpg);
           height: 100vh;
         "
       >
@@ -170,12 +176,11 @@
                 <h3
                   class="area-title text-capitalize alt-font text-white mb-2 font-weight-100"
                 >
-                  Sayfama<strong> Hoşgeldin! </strong>
+                  <strong> Hoşgeldiniz! </strong>
                 </h3>
                 <p class="text-white font-weight-300">
-                  Selam! Bu blog sayfasında güzellik,Psikoloji,psikolojiktestler adına her şey
-                  var. Merak ettiklerin ve daha fazlası için gezinmeye
-                  başlayabilirsin :)
+                  Hayatınızda yaşadığınız bir durum sizin normal hayatınızın işlevselliğini bozuyorsa ,
+                  yaşam kalitenizi düşürüyorsa ve belli bir süredir devam ediyorsa psikolojik problem yaşıyorsanız size yardımcı olmak için buradayız! 
                 </p>
                 <a
                   class="btn btn-transparent-white btn-rounded btn-rounded btn-large mt-3"
@@ -203,7 +208,7 @@
                 class="col-12 col-md-6 d-inline-block d-lg-flex justify-content-center align-items-center"
               >
                 <div class="feature-item text-center text-md-left">
-                  <h5 class="title">Vücut Psikolojiı</h5>
+                  <h5 class="title">Kullanıcılar Hakkında</h5>
                   <a
                     href="javascript:void(0);"
                     class="las la-arrow-right r-icon"
@@ -212,14 +217,14 @@
               </div>
               <div class="col-12 col-md-6">
                 <div class="feature-item text-center text-md-left">
-                  <h5 class="title">Cilt Psikolojiı</h5>
+                  <h5 class="title">Doktor Paylaşımları</h5>
                   <a
                     href="javascript:void(0);"
                     class="las la-arrow-right r-icon"
                   ></a>
                 </div>
                 <div class="feature-item text-center text-md-left">
-                  <h5 class="title">Saç Psikolojiı</h5>
+                  <h5 class="title">Tavsiye Paylaşımları</h5>
                   <a
                     href="javascript:void(0);"
                     class="las la-arrow-right r-icon"
@@ -588,103 +593,54 @@
    
     <section
       class="single-items center-block parallax contact-sec"
-      id="contact"
+      id="login"
       style="background: url(afrayavuz/img/single-portfolio8.jpg)"
       
     >
-      <div class="container">
-        <div class="row">
-          <div
-            class="col-12 col-lg-6 offset-lg-6 contact-box text-center text-md-left"
-          >
-            <div class="c-box wow fadeInRight">
-              <h4 class="small-heading"><strong>İletişim</strong></h4>
-
-              <form class="contact-form" id="contact-form-data">
-                <div class="row my-form">
-                  <div class="col-sm-12" id="result"></div>
-                  <div class="col-12 col-md-6">
-                    <input
-                      type="text"
-                      class="form-control"
-                      id="candidate_fname"
-                      name="firstName"
-                      placeholder="İsim"
-                      required="required"
-                    />
-                  </div>
-                  <div class="col-12 col-md-6">
-                    <input
-                      type="text"
-                      class="form-control"
-                      id="candidate_lname"
-                      name="lastName"
-                      placeholder="Soyisim"
-                      required="required"
-                    />
-                  </div>
-                  <div class="col-12 col-md-6">
-                    <input
-                      type="email"
-                      class="form-control"
-                      id="user_email"
-                      name="userEmail"
-                      placeholder="Email"
-                      required="required"
-                    />
-                  </div>
-                  <div class="col-12 col-md-6">
-                    <input
-                      type="text"
-                      class="form-control"
-                      id="user_subject"
-                      name="userSubject"
-                      placeholder="Konu"
-                      required="required"
-                    />
-                  </div>
-                  <div class="col-12">
-                    <textarea
-                      class="form-control"
-                      id="user_message"
-                      name="userMessage"
-                      placeholder="Mesaj"
-                      rows="6"
-                      required="required"
-                    ></textarea>
-                  </div>
-                  <div class="col-12">
-                    <a
-                      href="javascript:void(0);"
-                      class="btn rounded-pill user-contact contact_btn"
-                      type="submit"
-                      ><i
-                        class="fa fa-spinner fa-spin mr-2 d-none"
-                        aria-hidden="true"
-                      ></i
-                      >GÖNDER
-                    </a>
-                  </div>
-                </div>
-              </form>
+    <div class="container">
+      <div class="row">
+        <div class="col-12 col-lg-6"></div>
+        <div class="col-12 col-lg-6 center-col">
+          <div class="row no-gutters">
+            <div
+              class="col-12 col-md-6 "
+            >
+              <div class="feature-item text-center text-md-left">
+                <h5 class="title">Doktor <br>Kayıt ol </h5>
+                <a
+                  href="javascript:void(0);"
+                  class="las la-arrow-right r-icon"
+                ></a>
+              </div>
+            </div>
+            <div class="col-12 col-md-6">
+              <div class="feature-item text-center text-md-left ">
+                <h5 class="title">Kullanıcı <br> Kayıt ol</h5>
+                <a
+                  href="javascript:void(0);"
+                  class="las la-arrow-right r-icon"
+                ></a>
+              </div>
             </div>
           </div>
         </div>
       </div>
+    </div>
     </section>
 
     
     <section
       class="single-items center-block parallax contact-us-sec"
       style="background: url(afrayavuz/img/single-portfolio9.jpg)"
+      id="contact"
     >
    
       <div class="container">
         <div class="row">
-          <div class="col-12 col-lg-6 contact-details text-center text-lg-left">
+          <div class="col-sm  contact-details text-center text-lg-left">
             <div class="location-details">
               <img src="afrayavuz/img/profil.jpg" alt="Afra Yavuz" width="480" height="600" class="yuvarlak">
-              <h4 class="contact-heading">Afra Yavuz <strong>Blog</strong></h4>
+              <h4 class="contact-heading">Afra <br>Yavuz <strong>Developer</strong></h4>
             
               <ul class="slider-social contact-s-media">
                 <li class="animated-wrap">
@@ -714,6 +670,111 @@
                 </li>
               </ul>
             </div>
+            
+          </div>
+          <div class="col-sm  contact-details text-center text-lg-left">
+            <div class="location-details">
+              <img src="afrayavuz/img/profil2 (2).jpg" alt="Atakan Erkan" width="480" height="600" class="yuvarlak">
+              <h4 class="contact-heading">Atakan Erkan <strong>Developer</strong></h4>
+            
+              <ul class="slider-social contact-s-media">
+                <li class="animated-wrap">
+                  <a class="animated-element" href="javascript:void(0);"
+                    ><i class="lab la-facebook-f"></i>
+                  </a>
+                </li>
+                <li class="animated-wrap">
+                  <a class="animated-element" href="javascript:void(0);"
+                    ><i class="lab la-twitter"></i>
+                  </a>
+                </li>
+                <li class="animated-wrap">
+                  <a class="animated-element" href="javascript:void(0);"
+                    ><i class="lab la-google-plus-g"></i>
+                  </a>
+                </li>
+                <li class="animated-wrap">
+                  <a class="animated-element" href="javascript:void(0);"
+                    ><i class="lab la-linkedin-in"></i>
+                  </a>
+                </li>
+                <li class="animated-wrap">
+                  <a class="animated-element" href="javascript:void(0);"
+                    ><i class="lab la-instagram"></i>
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-sm  contact-details text-center text-lg-left">
+            <div class="location-details">
+              <img src="afrayavuz/img/profil3.jpg" alt="Mehmetcan Dinç" width="480" height="600" class="yuvarlak">
+              <h4 class="contact-heading">Mehmetcan Dinç <strong>Developer</strong></h4>
+            
+              <ul class="slider-social contact-s-media">
+                <li class="animated-wrap">
+                  <a class="animated-element" href="javascript:void(0);"
+                    ><i class="lab la-facebook-f"></i>
+                  </a>
+                </li>
+                <li class="animated-wrap">
+                  <a class="animated-element" href="javascript:void(0);"
+                    ><i class="lab la-twitter"></i>
+                  </a>
+                </li>
+                <li class="animated-wrap">
+                  <a class="animated-element" href="javascript:void(0);"
+                    ><i class="lab la-google-plus-g"></i>
+                  </a>
+                </li>
+                <li class="animated-wrap">
+                  <a class="animated-element" href="javascript:void(0);"
+                    ><i class="lab la-linkedin-in"></i>
+                  </a>
+                </li>
+                <li class="animated-wrap">
+                  <a class="animated-element" href="javascript:void(0);"
+                    ><i class="lab la-instagram"></i>
+                  </a>
+                </li>
+              </ul>
+            </div>
+            
+          </div>
+          <div class="col-sm  contact-details text-center text-lg-left">
+            <div class="location-details">
+              <img src="afrayavuz/img/profil4.jpeg" alt="Seda Özaslan" width="480" height="600" class="yuvarlak">
+              <h4 class="contact-heading">Seda Özaslan <strong>Developer</strong></h4>
+            
+              <ul class="slider-social contact-s-media">
+                <li class="animated-wrap">
+                  <a class="animated-element" href="javascript:void(0);"
+                    ><i class="lab la-facebook-f"></i>
+                  </a>
+                </li>
+                <li class="animated-wrap">
+                  <a class="animated-element" href="javascript:void(0);"
+                    ><i class="lab la-twitter"></i>
+                  </a>
+                </li>
+                <li class="animated-wrap">
+                  <a class="animated-element" href="javascript:void(0);"
+                    ><i class="lab la-google-plus-g"></i>
+                  </a>
+                </li>
+                <li class="animated-wrap">
+                  <a class="animated-element" href="javascript:void(0);"
+                    ><i class="lab la-linkedin-in"></i>
+                  </a>
+                </li>
+                <li class="animated-wrap">
+                  <a class="animated-element" href="javascript:void(0);"
+                    ><i class="lab la-instagram"></i>
+                  </a>
+                </li>
+              </ul>
+            </div>
+            
           </div>
         </div>
       </div>
